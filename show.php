@@ -24,14 +24,14 @@ $data = json_decode ($res->getBody());
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Unicorns</title>
   </head>
   <body>
 
-  <p><?php echo $data->name; ?>  <p/>
-<img src="<?php echo $data->image; ?>"/>
-<?php echo $data->spottedWhen; ?>
-<?php echo $data->description; ?>
-<?php echo $data->reportedBy; ?>
+  <p><?php echo $data->name; ?><p/>
+<p><img src="<?php echo $data->image; ?>"/><p/>
+<p><?php echo $data->spottedWhen; ?> <p/>
+<p><?php echo $data->description; ?><p/>
+<p><?php echo $data->reportedBy; ?><p/>
   </body>
 </html>
