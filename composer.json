@@ -1,0 +1,15 @@
+{
+    "name": "da288a/assignment1",
+    "description": "This is an assignment for da288a",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^1.23",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "authors": [
+        {
+            "name": "ChristinaTsigara",
+            "email": "christina.tsigara@gmail.com"
+        }
+    ]
+}
