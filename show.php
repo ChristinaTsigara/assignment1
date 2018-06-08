@@ -39,9 +39,11 @@ $data = json_decode ($res->getBody());
 
   <form action="/show.php" method="get" class="form-inline">
     <label for="id">ID på enhörning: </label>
-    <input type="number" step="1" id="id" name="id" class="form-control" required value="">
-    <input button class="button showunicorn" type="submit" name="submit" value="Visa enhörning"></button>
-    <a href='/index.php'><input button class="button showallunicorns" type="submit" name="submit" value="Visa alla enhörningar"></button></a>
+    <form action="/show.php" method="get" class="form-inline">
+  <label for="id">ID på enhörning: </label>
+  <input type="number" step="1" id="id" name="id" class="form-control" required value="">
+  <input button class="button showunicorn" type="submit" name="submit" value="Visa enhörning"></button>
+  <a href='/index.php'><input button class="button showallunicorns" type="submit" name="submit" value="Visa alla enhörningar"></button></a>
   </form>
 
   <p><b><?php echo $data->name; ?></b><p/>
