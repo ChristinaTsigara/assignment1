@@ -26,7 +26,15 @@
   background-color: white;
   color: black;
   border: 2px solid #4CAF50;
-  display: block;
+}
+
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+font-size: 20px;
 }
 
 p{
@@ -37,4 +45,9 @@ a:link {
     text-decoration: none;
     color: black;
     font-size: 14px;
+}
+
+img{
+max-width: 320px;
+float: right;
 }
